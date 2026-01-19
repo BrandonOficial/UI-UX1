@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Header from "./components/Header"; // Importe o Header aqui
+import Header from "./components/Header";
 
-// Configurando a fonte local
+// Correção: nome do arquivo em minúsculo
 const impactFont = localFont({
-  src: "../public/fonts/IMPACT.TTF", // Caminho para sua fonte
-  variable: "--font-impact", // Variável CSS para usar no Tailwind
+  src: "../public/fonts/impact.ttf", 
+  variable: "--font-impact",
 });
 
 export const metadata: Metadata = {
@@ -21,11 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* Injetamos a variável da fonte no body */}
       <body className={`${impactFont.variable} antialiased bg-zinc-50`}>
-        {/* O Header fica no Layout para aparecer em todas as páginas */}
         <Header />
-        <main className="pt-32"> {/* Padding top para compensar o header fixo */}
+        <main className="pt-32">
           {children}
         </main>
       </body>
