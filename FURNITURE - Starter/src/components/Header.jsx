@@ -30,7 +30,7 @@ const Header = () => {
 
         {/* mobile menu */}
         <div className="lg:hidden">
-          <MenuIcon className="w-8 h-8 text-zinc-900" />
+          <MenuIcon className="w-6 h-6 text-zinc-900" />
         </div>
       </div>
     </header>
