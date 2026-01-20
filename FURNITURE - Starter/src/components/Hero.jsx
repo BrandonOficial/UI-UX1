@@ -9,7 +9,7 @@ const Hero = () => {
                 <div className="lg:w-1/2">
                     <h1 className="text-7xl sm:text-8xl font-extrabold leading-none mb-6">
                         <span className="block impact lg:text-[250px]">FINE</span>
-                        <span className="block impact lg:text-[250px] tracking-tight lg:mt-10">FURNISHINGS</span>
+                        <span className="block impact lg:text-[250px] lg:mt-10">FURNISHING</span>
                     </h1>
 
                     <div className="text-base lg:text-lg text-zinc-600 max-w-md lg:w-full mb-8 py-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur voluptates, ratione totam facilis natus alias nobis laborum omnis explicabo facere aut autem, id dignissimos vero </div>
