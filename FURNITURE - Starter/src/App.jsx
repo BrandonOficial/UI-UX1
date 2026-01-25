@@ -18,6 +18,8 @@ const App = () => {
       <NewArrival />
       <hr className="text-zinc-300" />
       <ShopByRoom />
+      <hr className="text-zinc-300" />
+      
     </main>
     {/* footer */}
   </div>;
