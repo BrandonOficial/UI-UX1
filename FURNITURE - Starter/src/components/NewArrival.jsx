@@ -13,7 +13,7 @@ const NewArrival = () => {
                     <div className="flex flex-col-reverse card-hover">
                         {/* Image 🖼 */}
 
-                        <BigImg />
+                        <BigImg src="https://images.unsplash.com/photo-1637649228998-6c78a67dfa6c?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                         {/* text content */}
                         <div className="mt-6 md:mt-0 pt-4 flex justify-between">
                             <div className="">
@@ -45,7 +45,7 @@ const NewArrival = () => {
                     <div className="flex flex-col lg:w-1/2  card-hover">
                         {/* image */}
 
-                        <SmallImg />
+                        <SmallImg src="https://plus.unsplash.com/premium_photo-1674815327132-6a17c43761ae?q=80&w=670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                         {/* text detail 1 */}
                         <div className="w-full flex justify-between pt-2">
                             {/* 1 */}
@@ -71,7 +71,7 @@ const NewArrival = () => {
                     <div className="flex flex-col lg:w-1/2 lg:mt-50 card-hover">
                         {/* image */}
 
-                        <SmallImg />
+                        <SmallImg src="https://images.unsplash.com/photo-1691036562015-56ebf6648f8c?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                         {/* text detail 2 */}
                         <div className="w-full flex justify-between pt-2">
                             {/* 1 */}

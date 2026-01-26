@@ -17,13 +17,13 @@ const Trending = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         { /* Item 1 */}
         <div className="col-span-1">
-          <ProductCard price="500" position="bottom-4 left-4" />
+          <ProductCard src="https://images.unsplash.com/photo-1608626597747-0d9b8884972c?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" price="500" position="bottom-4 left-4" />
         </div>
         { /* Item 2 & 3 */}
         <div className="col-span-1 md:col-span-2 flex flex-col space-y-6">
           <div className="grid md:grid-cols-2 gap-6">
-            <ProductCard price="1000" position="bottom-4 right-4" />
-            <ProductCard price="250" position="top-4 right-4" />
+            <ProductCard src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" price="1000" position="bottom-4 right-4" />
+            <ProductCard src="https://images.unsplash.com/photo-1591931681345-16b532514cde?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" price="250" position="top-4 right-4" />
           </div>
           <div className="pt-6">
             <h3 className="text-3xl font-extrabold uppercase mb-2">
