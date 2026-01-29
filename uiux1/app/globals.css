@@ -1,9 +1,0 @@
-@import "tailwindcss";
-
-/* Aqui conectamos a variável da fonte do Next.js (--font-impact) 
-  ao sistema do Tailwind.
-  Isso cria automaticamente a classe: font-impact 
-*/
-@theme {
-  --font-impact: var(--font-impact);
-}
